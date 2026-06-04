@@ -9,7 +9,7 @@ on:
       - closed
 
 concurrency:
-  group: docs-preview-pr-${{ github.event.pull_request.number }}
+  group: .my.docs-preview-pr-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 permissions:
